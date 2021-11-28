@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+
+<body>
+    <h3>Factorial</h3>
+    <script>
+        var num = parseInt(prompt('Enter a value: '));
+        if (num == 0) {
+            f = 1;
+            console.log(f);
+
+        } else {
+            var f = 1;
+            for (var i = 1; i <= num; i++) {
+                f = f * i;
+            }
+            console.log(f);
+        }
+    </script>
+
+</body>
+
+</html>
